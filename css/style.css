@@ -1,0 +1,84 @@
+.container{
+	text-align: center;
+	width: 600px;
+	margin:auto;
+	padding:10px;
+}
+.message_area{
+	border-radius: 2px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.comment_text{
+	border:1px solid #3b5998;
+	display: block;
+    float: left;
+	width: 400px;
+    height: 50px;
+}
+.comment_button{
+	margin-top: 8px;
+    padding: 10px 35px;
+    background: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.message_container{
+	border:1px solid #3b5998;
+	border-radius: 2px;
+	padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.message_container li{
+	list-style-type: none;
+}
+.message_container li img{
+	display: inline-block;
+	margin-right: 20px;
+}
+.message_container li span{
+	text-align: right;
+}
+.message_container li .date{
+	font-size: 12px;
+    color: grey;
+}
+.message_container li .answer{
+	display: block;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.child_comments_text{
+	width: 100%;
+}
+.child_comments{
+	display: block;
+	float:right;
+	cursor: pointer;
+    text-decoration: underline;
+}
+.parent_0{
+	margin: 10px;
+}
+.left_part_0, .right_part_0{
+	float: left;
+}
+.left_part_0{
+	width: 30%;
+}
+.right_part_0{
+	width: 70%;
+	text-align: left;
+}
+.button_container{
+	display: block;
+}
+#status{
+	margin-top: 20px;
+}
+.disabled, .cbalink{
+	display: none;
+}
